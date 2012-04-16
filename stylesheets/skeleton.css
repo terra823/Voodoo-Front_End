@@ -1,0 +1,248 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0;}
+    .container .column,
+    .container .columns                         { float: left; display: inline;}
+    .row                                        { margin-bottom: 5px; }
+
+    .port-wall                                  { position: relative; width: 100%; margin: 0 auto; padding: 0; background-color:#555;}
+    .port-wall .column,
+    .port-wall .columns                         { float: left; display: inline; margin-left: 2px; margin-right: 2px; }
+    .row                                        { margin-bottom: 20px; }
+
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .port-wall .one.column,
+    .port-wall .one.columns                     { width: 40px; }
+    .port-wall .two.columns                     { width: 100px; }
+    .port-wall .three.columns                   { width: 160px; }
+    .port-wall .four.columns                    { width: 220px; }
+    .port-wall .five.columns                    { width: 280px; }
+    .port-wall .six.columns                     { width: 340px; }
+    .port-wall .seven.columns                   { width: 400px; }
+    .port-wall .eight.columns                   { width: 460px; }
+    .port-wall .nine.columns                    { width: 520px; }
+    .port-wall .ten.columns                     { width: 580px; }
+    .port-wall .eleven.columns                  { width: 640px; }
+    .port-wall .twelve.columns                  { width: 700px; }
+    .port-wall .thirteen.columns                { width: 760px; }
+    .port-wall .fourteen.columns                { width: 820px; }
+    .port-wall .fifteen.columns                 { width: 880px; }
+    .port-wall .sixteen.columns                 { width: 940px; }
+
+    .port-wall .one-third.column                { width: 250px; }
+    .port-wall .two-thirds.column               { width: 620px; }
+
+    /* Offsets */
+    .port-wall .offset-by-one                   { padding-left: 60px;  }
+    .port-wall .offset-by-two                   { padding-left: 120px; }
+    .port-wall .offset-by-three                 { padding-left: 180px; }
+    .port-wall .offset-by-four                  { padding-left: 240px; }
+    .port-wall .offset-by-five                  { padding-left: 300px; }
+    .port-wall .offset-by-six                   { padding-left: 360px; }
+    .port-wall .offset-by-seven                 { padding-left: 420px; }
+    .port-wall .offset-by-eight                 { padding-left: 480px; }
+    .port-wall .offset-by-nine                  { padding-left: 540px; }
+    .port-wall .offset-by-ten                   { padding-left: 600px; }
+    .port-wall .offset-by-eleven                { padding-left: 660px; }
+    .port-wall .offset-by-twelve                { padding-left: 720px; }
+    .port-wall .offset-by-thirteen              { padding-left: 780px; }
+    .port-wall .offset-by-fourteen              { padding-left: 840px; }
+    .port-wall .offset-by-fifteen               { padding-left: 900px; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .port-wall .column,
+        .port-wall .columns                         { margin-left: 2px; margin-right: 2px;  }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 2px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 2px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+        .port-wall .one.column,
+        .port-wall .one.columns                     { width: 28px; }
+        .port-wall .two.columns                     { width: 76px; }
+        .port-wall .three.columns                   { width: 124px; }
+        .port-wall .four.columns                    { width: 172px; }
+        .port-wall .five.columns                    { width: 220px; }
+        .port-wall .six.columns                     { width: 268px; }
+        .port-wall .seven.columns                   { width: 316px; }
+        .port-wall .eight.columns                   { width: 364px; }
+        .port-wall .nine.columns                    { width: 412px; }
+        .port-wall .ten.columns                     { width: 460px; }
+        .port-wall .eleven.columns                  { width: 508px; }
+        .port-wall .twelve.columns                  { width: 556px; }
+        .port-wall .thirteen.columns                { width: 604px; }
+        .port-wall .fourteen.columns                { width: 652px; }
+        .port-wall .fifteen.columns                 { width: 700px; }
+        .port-wall .sixteen.columns                 { width: 748px; }
+
+        .port-wall .one-third.column                { width: 236px; }
+        .port-wall .two-thirds.column               { width: 492px; }
+
+        /* Offsets */
+        .port-wall .offset-by-one                   { padding-left: 48px; }
+        .port-wall .offset-by-two                   { padding-left: 96px; }
+        .port-wall .offset-by-three                 { padding-left: 144px; }
+        .port-wall .offset-by-four                  { padding-left: 192px; }
+        .port-wall .offset-by-five                  { padding-left: 240px; }
+        .port-wall .offset-by-six                   { padding-left: 288px; }
+        .port-wall .offset-by-seven                 { padding-left: 336px; }
+        .port-wall .offset-by-eight                 { padding-left: 384px; }
+        .port-wall .offset-by-nine                  { padding-left: 432px; }
+        .port-wall .offset-by-ten                   { padding-left: 480px; }
+        .port-wall .offset-by-eleven                { padding-left: 528px; }
+        .port-wall .offset-by-twelve                { padding-left: 576px; }
+        .port-wall .offset-by-thirteen              { padding-left: 624px; }
+        .port-wall .offset-by-fourteen              { padding-left: 672px; }
+        .port-wall .offset-by-fifteen               { padding-left: 720px; }
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .port-wall .columns,
+        .port-wall .column { margin: 0; }
+
+        .port-wall .one.column,
+        .port-wall .one.columns,
+        .port-wall .two.columns,
+        .port-wall .three.columns,
+        .port-wall .four.columns,
+        .port-wall .five.columns,
+        .port-wall .six.columns,
+        .port-wall .seven.columns,
+        .port-wall .eight.columns,
+        .port-wall .nine.columns,
+        .port-wall .ten.columns,
+        .port-wall .eleven.columns,
+        .port-wall .twelve.columns,
+        .port-wall .thirteen.columns,
+        .port-wall .fourteen.columns,
+        .port-wall .fifteen.columns,
+        .port-wall .sixteen.columns,
+        .port-wall .one-third.column,
+        .port-wall .two-thirds.column  { width: 300px; }
+
+        /* Offsets */
+        .port-wall .offset-by-one,
+        .port-wall .offset-by-two,
+        .port-wall .offset-by-three,
+        .port-wall .offset-by-four,
+        .port-wall .offset-by-five,
+        .port-wall .offset-by-six,
+        .port-wall .offset-by-seven,
+        .port-wall .offset-by-eight,
+        .port-wall .offset-by-nine,
+        .port-wall .offset-by-ten,
+        .port-wall .offset-by-eleven,
+        .port-wall .offset-by-twelve,
+        .port-wall .offset-by-thirteen,
+        .port-wall .offset-by-fourteen,
+        .port-wall .offset-by-fifteen { padding-left: 0; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .port-wall .columns,
+        .port-wall .column { margin: 0; }
+
+        .port-wall .one.column,
+        .port-wall .one.columns,
+        .port-wall .two.columns,
+        .port-wall .three.columns,
+        .port-wall .four.columns,
+        .port-wall .five.columns,
+        .port-wall .six.columns,
+        .port-wall .seven.columns,
+        .port-wall .eight.columns,
+        .port-wall .nine.columns,
+        .port-wall .ten.columns,
+        .port-wall .eleven.columns,
+        .port-wall .twelve.columns,
+        .port-wall .thirteen.columns,
+        .port-wall .fourteen.columns,
+        .port-wall .fifteen.columns,
+        .port-wall .sixteen.columns,
+        .port-wall .one-third.column,
+        .port-wall .two-thirds.column { width: 420px; }
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
